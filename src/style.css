@@ -9,6 +9,21 @@ body{
     align-items: center;
 }
 
+.diet-title h1 {
+    font-size: 40px;
+}
+
+.diet-title {
+    width: 72%;
+    padding: 0% 5%;
+    position: relative;
+    left: 124px;
+}
+
+.diet-title h1 span{
+    color: orangered;
+}
+
 .half-width{
 
     width: 50%;
@@ -34,12 +49,10 @@ body{
 
 
 .hero-img {
-    width: 93%;
-    position: absolute;
-    left: -9px;
-    top: -108px;
+    width: 100%;
+    position: relative;
+    left: -70px;
 }
-
 
 .about-me {
     display: flex;
@@ -52,6 +65,9 @@ body{
     background-size: cover;
 }
 
+.about-me-title p {
+    margin: 40px 0;
+}
 .about-me-img {
     position: relative;
 }
