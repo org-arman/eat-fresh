@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.skip-diet-area{
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.half-width{
+
+    width: 50%;
+    padding: 0% 5%;
+}
+
+.button{
+    background-image: linear-gradient(to right,orange,orangered);
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px ;
+    border-radius: 50px;
+}
+
+.skip-diet-img{
+    width: 100%;
+    position: relative;
+}
+
+.shape-img{
+    width: 100%;
+}
+
+
+.hero-img {
+    width: 93%;
+    position: absolute;
+    left: -9px;
+    top: -108px;
+}
+
+
+.about-me {
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    background-image: url(../img/shapes/7.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-me-img {
+    position: relative;
+}
+
+img.about-img {
+    width: 100%;
+}
+
+.recipies{
+    margin-top: 100px;
+}
+
+.recipie-title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+
+.title-items{
+    width: 50%;
+}
+
+.recipie-cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card-item {
+    width: 36%;
+    background: #fff;
+    box-shadow: 0 0 11px 12px #ddd;
+    border-radius: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 15px;
+    height: 50vh;
+}
+img.food-img {
+    width: 100%;
+    border-radius: 20px;
+    height: 55%;
+}
+
+
+
+section.socialmedia {
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+    box-shadow: 0 0 8px 0px #ddd;
+    width: 90%;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding: 30px 0;
+}
+
+footer{
+    background: #000;
+    height: 150px;
+    text-align: center;
+}
+
+footer h2{
+    padding-top: 20px;
+    color: #ddd;
+}
+
+footer h2 span{
+    color: orange;
+}
+
+footer p{
+    color: #fff;
+}
